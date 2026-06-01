@@ -1,4 +1,4 @@
-# gitblame-wrapped 🎁
+# gitblame-wrapped
 
 > **Your annual developer personality report — from your own git history.**
 
@@ -8,11 +8,11 @@ Like Spotify Wrapped, but for your coding habits. `gitblame-wrapped` digs throug
 
 ## Features
 
-- 🔍 Parses any local git repository — no API keys, no cloud, no nonsense
-- 🕐 Hourly commit heatmap (ASCII bar chart)
-- 😬 "Shame section": late-night commits, panic keywords, profanity in messages
-- 🧠 Developer archetype classification (6 types)
-- 📁 Optional text-file export
+- Parses any local git repository — no API keys, no cloud, no nonsense
+- Hourly commit heatmap (ASCII bar chart)
+- "Shame section": late-night commits, panic keywords, profanity in messages
+- Developer archetype classification (6 types)
+- Optional text-file export
 - Zero dependencies — pure Python 3.10+ stdlib only
 
 ---
@@ -34,17 +34,17 @@ python gitblame_wrapped.py . --year 2024 --output report.txt
 
 ```
 ╔══════════════════════════════════════════════════════════╗
-║              🎁  GITBLAME WRAPPED  2024                  ║
+║                  GITBLAME WRAPPED  2024                  ║
 ║                       my-project                         ║
 ╚══════════════════════════════════════════════════════════╝
 
   YOUR DEVELOPER ARCHETYPE
-  🦇 The Vampire Developer
+  The Vampire Developer
   The sun is your enemy. Your best commits happen when the
   rest of the world sleeps...
 
 ──────────────────────────────────────────────────────────
-  📊  BY THE NUMBERS
+ BY THE NUMBERS
 ──────────────────────────────────────────────────────────
   Total commits ..............  847
   Unique contributors ........  3
@@ -61,12 +61,12 @@ python gitblame_wrapped.py . --year 2024 --output report.txt
 
 | Archetype | Trigger |
 |-----------|---------|
-| 🔥 The Chaos Engineer | Night owl **+** high panic-commit rate |
-| 🦇 The Vampire Developer | Heavy late-night commits |
-| 🕵️ The Cryptic Committer | >25% vague one-word messages |
-| 📚 The Diligent Documenter | Long, descriptive messages & calm workflow |
-| 🚑 The Hotfix Hero | >40% fix/hotfix/revert commits |
-| 🛠️ The Steady Craftsperson | None of the above — consistently solid |
+| The Chaos Engineer | Night owl **+** high panic-commit rate |
+| The Vampire Developer | Heavy late-night commits |
+| The Cryptic Committer | >25% vague one-word messages |
+| The Diligent Documenter | Long, descriptive messages & calm workflow |
+| The Hotfix Hero | >40% fix/hotfix/revert commits |
+| The Steady Craftsperson | None of the above — consistently solid |
 
 ---
 
